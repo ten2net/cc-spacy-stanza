@@ -1,0 +1,1530 @@
+{
+  "text": "",
+  "ents": [
+    {
+      "start": 0,
+      "end": 4,
+      "label": "EVENT"
+    },
+    {
+      "start": 7,
+      "end": 12,
+      "label": "EVENT"
+    },
+    {
+      "start": 16,
+      "end": 25,
+      "label": "DATE"
+    },
+    {
+      "start": 31,
+      "end": 38,
+      "label": "DATE"
+    },
+    {
+      "start": 38,
+      "end": 41,
+      "label": "TIME"
+    },
+    {
+      "start": 42,
+      "end": 45,
+      "label": "FAC"
+    },
+    {
+      "start": 46,
+      "end": 48,
+      "label": "GPE"
+    },
+    {
+      "start": 54,
+      "end": 56,
+      "label": "GPE"
+    },
+    {
+      "start": 68,
+      "end": 70,
+      "label": "GPE"
+    },
+    {
+      "start": 89,
+      "end": 90,
+      "label": "CARDINAL"
+    },
+    {
+      "start": 91,
+      "end": 92,
+      "label": "GPE"
+    },
+    {
+      "start": 102,
+      "end": 104,
+      "label": "GPE"
+    },
+    {
+      "start": 107,
+      "end": 111,
+      "label": "GPE"
+    },
+    {
+      "start": 121,
+      "end": 123,
+      "label": "GPE"
+    },
+    {
+      "start": 130,
+      "end": 131,
+      "label": "GPE"
+    },
+    {
+      "start": 135,
+      "end": 138,
+      "label": "FAC"
+    },
+    {
+      "start": 139,
+      "end": 142,
+      "label": "FAC"
+    },
+    {
+      "start": 147,
+      "end": 149,
+      "label": "GPE"
+    },
+    {
+      "start": 182,
+      "end": 186,
+      "label": "EVENT"
+    },
+    {
+      "start": 190,
+      "end": 196,
+      "label": "EVENT"
+    }
+  ],
+  "sents": [
+    {
+      "start": 0,
+      "end": 31
+    },
+    {
+      "start": 31,
+      "end": 147
+    },
+    {
+      "start": 147,
+      "end": 181
+    },
+    {
+      "start": 181,
+      "end": 200
+    }
+  ],
+  "tokens": [
+    {
+      "id": 0,
+      "start": 0,
+      "end": 2,
+      "tag": "CD",
+      "pos": "NUM",
+      "morph": "NumType=Card",
+      "lemma": "七七",
+      "dep": "nmod",
+      "head": 1
+    },
+    {
+      "id": 1,
+      "start": 2,
+      "end": 4,
+      "tag": "NN",
+      "pos": "NOUN",
+      "morph": "",
+      "lemma": "事变",
+      "dep": "nsubj",
+      "head": 9
+    },
+    {
+      "id": 2,
+      "start": 4,
+      "end": 5,
+      "tag": ",",
+      "pos": "PUNCT",
+      "morph": "",
+      "lemma": "，",
+      "dep": "punct",
+      "head": 1
+    },
+    {
+      "id": 3,
+      "start": 5,
+      "end": 6,
+      "tag": "RB",
+      "pos": "ADV",
+      "morph": "",
+      "lemma": "又",
+      "dep": "mark",
+      "head": 4
+    },
+    {
+      "id": 4,
+      "start": 6,
+      "end": 7,
+      "tag": "VV",
+      "pos": "VERB",
+      "morph": "",
+      "lemma": "称",
+      "dep": "advcl",
+      "head": 9
+    },
+    {
+      "id": 5,
+      "start": 7,
+      "end": 9,
+      "tag": "NNP",
+      "pos": "PROPN",
+      "morph": "",
+      "lemma": "卢沟",
+      "dep": "compound",
+      "head": 6
+    },
+    {
+      "id": 6,
+      "start": 9,
+      "end": 10,
+      "tag": "SFN",
+      "pos": "PART",
+      "morph": "",
+      "lemma": "桥",
+      "dep": "nmod",
+      "head": 7
+    },
+    {
+      "id": 7,
+      "start": 10,
+      "end": 12,
+      "tag": "NN",
+      "pos": "NOUN",
+      "morph": "",
+      "lemma": "事变",
+      "dep": "obj",
+      "head": 4
+    },
+    {
+      "id": 8,
+      "start": 12,
+      "end": 13,
+      "tag": ",",
+      "pos": "PUNCT",
+      "morph": "",
+      "lemma": "，",
+      "dep": "punct",
+      "head": 4
+    },
+    {
+      "id": 9,
+      "start": 13,
+      "end": 15,
+      "tag": "VV",
+      "pos": "VERB",
+      "morph": "",
+      "lemma": "发生",
+      "dep": "root",
+      "head": 9
+    },
+    {
+      "id": 10,
+      "start": 15,
+      "end": 16,
+      "tag": "IN",
+      "pos": "ADP",
+      "morph": "",
+      "lemma": "于",
+      "dep": "case",
+      "head": 16
+    },
+    {
+      "id": 11,
+      "start": 16,
+      "end": 20,
+      "tag": "CD",
+      "pos": "NUM",
+      "morph": "NumType=Card",
+      "lemma": "1937",
+      "dep": "nummod",
+      "head": 12
+    },
+    {
+      "id": 12,
+      "start": 20,
+      "end": 21,
+      "tag": "NNB",
+      "pos": "NOUN",
+      "morph": "",
+      "lemma": "年",
+      "dep": "clf",
+      "head": 16
+    },
+    {
+      "id": 13,
+      "start": 21,
+      "end": 22,
+      "tag": "CD",
+      "pos": "NUM",
+      "morph": "NumType=Card",
+      "lemma": "7",
+      "dep": "nummod",
+      "head": 14
+    },
+    {
+      "id": 14,
+      "start": 22,
+      "end": 23,
+      "tag": "NNB",
+      "pos": "NOUN",
+      "morph": "",
+      "lemma": "月",
+      "dep": "clf",
+      "head": 16
+    },
+    {
+      "id": 15,
+      "start": 23,
+      "end": 24,
+      "tag": "CD",
+      "pos": "NUM",
+      "morph": "NumType=Card",
+      "lemma": "7",
+      "dep": "nummod",
+      "head": 16
+    },
+    {
+      "id": 16,
+      "start": 24,
+      "end": 25,
+      "tag": "NNB",
+      "pos": "NOUN",
+      "morph": "",
+      "lemma": "日",
+      "dep": "nmod",
+      "head": 17
+    },
+    {
+      "id": 17,
+      "start": 26,
+      "end": 29,
+      "tag": "CD",
+      "pos": "NUM",
+      "morph": "NumType=Card",
+      "lemma": "[1
+    ]", "dep": "obl", "head": 9
+  },
+  {
+    "id": 18,
+    "start": 30,
+    "end": 31,
+    "tag": ".",
+    "pos": "PUNCT",
+    "morph": "",
+    "lemma": "。",
+    "dep": "punct",
+    "head": 9
+  },
+  {
+    "id": 19,
+    "start": 31,
+    "end": 35,
+    "tag": "CD",
+    "pos": "NUM",
+    "morph": "NumType=Card",
+    "lemma": "1937",
+    "dep": "nummod",
+    "head": 20
+  },
+  {
+    "id": 20,
+    "start": 35,
+    "end": 36,
+    "tag": "NNB",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "年",
+    "dep": "clf",
+    "head": 25
+  },
+  {
+    "id": 21,
+    "start": 36,
+    "end": 37,
+    "tag": "CD",
+    "pos": "NUM",
+    "morph": "NumType=Card",
+    "lemma": "7",
+    "dep": "nummod",
+    "head": 22
+  },
+  {
+    "id": 22,
+    "start": 37,
+    "end": 38,
+    "tag": "NNB",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "月",
+    "dep": "clf",
+    "head": 25
+  },
+  {
+    "id": 23,
+    "start": 38,
+    "end": 39,
+    "tag": "CD",
+    "pos": "NUM",
+    "morph": "NumType=Card",
+    "lemma": "7",
+    "dep": "nummod",
+    "head": 24
+  },
+  {
+    "id": 24,
+    "start": 39,
+    "end": 40,
+    "tag": "NNB",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "日",
+    "dep": "clf",
+    "head": 25
+  },
+  {
+    "id": 25,
+    "start": 40,
+    "end": 41,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "夜",
+    "dep": "nmod:tmod",
+    "head": 82
+  },
+  {
+    "id": 26,
+    "start": 41,
+    "end": 42,
+    "tag": ",",
+    "pos": "PUNCT",
+    "morph": "",
+    "lemma": "，",
+    "dep": "punct",
+    "head": 25
+  },
+  {
+    "id": 27,
+    "start": 42,
+    "end": 44,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "卢沟",
+    "dep": "compound",
+    "head": 28
+  },
+  {
+    "id": 28,
+    "start": 44,
+    "end": 45,
+    "tag": "SFN",
+    "pos": "PART",
+    "morph": "",
+    "lemma": "桥",
+    "dep": "nmod",
+    "head": 32
+  },
+  {
+    "id": 29,
+    "start": 45,
+    "end": 46,
+    "tag": "DEC",
+    "pos": "PART",
+    "morph": "Case=Gen",
+    "lemma": "的",
+    "dep": "case",
+    "head": 28
+  },
+  {
+    "id": 30,
+    "start": 46,
+    "end": 48,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "日本",
+    "dep": "nmod",
+    "head": 32
+  },
+  {
+    "id": 31,
+    "start": 48,
+    "end": 49,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "驻",
+    "dep": "compound",
+    "head": 32
+  },
+  {
+    "id": 32,
+    "start": 49,
+    "end": 50,
+    "tag": "SFN",
+    "pos": "PART",
+    "morph": "",
+    "lemma": "军",
+    "dep": "nsubj",
+    "head": 82
+  },
+  {
+    "id": 33,
+    "start": 50,
+    "end": 51,
+    "tag": "IN",
+    "pos": "ADP",
+    "morph": "",
+    "lemma": "在",
+    "dep": "case",
+    "head": 35
+  },
+  {
+    "id": 34,
+    "start": 51,
+    "end": 52,
+    "tag": "RB",
+    "pos": "ADV",
+    "morph": "Polarity=Neg",
+    "lemma": "未",
+    "dep": "advmod",
+    "head": 35
+  },
+  {
+    "id": 35,
+    "start": 52,
+    "end": 54,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "通知",
+    "dep": "xcomp",
+    "head": 50
+  },
+  {
+    "id": 36,
+    "start": 54,
+    "end": 56,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "中国",
+    "dep": "nmod",
+    "head": 38
+  },
+  {
+    "id": 37,
+    "start": 56,
+    "end": 58,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "地方",
+    "dep": "nmod",
+    "head": 38
+  },
+  {
+    "id": 38,
+    "start": 58,
+    "end": 60,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "当局",
+    "dep": "nmod",
+    "head": 40
+  },
+  {
+    "id": 39,
+    "start": 60,
+    "end": 61,
+    "tag": "DEC",
+    "pos": "PART",
+    "morph": "Case=Gen",
+    "lemma": "的",
+    "dep": "case",
+    "head": 38
+  },
+  {
+    "id": 40,
+    "start": 61,
+    "end": 63,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "情况",
+    "dep": "obj",
+    "head": 35
+  },
+  {
+    "id": 41,
+    "start": 63,
+    "end": 64,
+    "tag": "IN",
+    "pos": "ADP",
+    "morph": "",
+    "lemma": "下",
+    "dep": "case",
+    "head": 40
+  },
+  {
+    "id": 42,
+    "start": 64,
+    "end": 65,
+    "tag": ",",
+    "pos": "PUNCT",
+    "morph": "",
+    "lemma": "，",
+    "dep": "punct",
+    "head": 40
+  },
+  {
+    "id": 43,
+    "start": 65,
+    "end": 66,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "径",
+    "dep": "nsubj",
+    "head": 50
+  },
+  {
+    "id": 44,
+    "start": 66,
+    "end": 68,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "自在",
+    "dep": "advcl",
+    "head": 50
+  },
+  {
+    "id": 45,
+    "start": 68,
+    "end": 70,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "中国",
+    "dep": "nmod",
+    "head": 49
+  },
+  {
+    "id": 46,
+    "start": 70,
+    "end": 71,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "驻",
+    "dep": "amod",
+    "head": 49
+  },
+  {
+    "id": 47,
+    "start": 71,
+    "end": 73,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "军阵",
+    "dep": "compound",
+    "head": 48
+  },
+  {
+    "id": 48,
+    "start": 73,
+    "end": 74,
+    "tag": "SFN",
+    "pos": "PART",
+    "morph": "",
+    "lemma": "地",
+    "dep": "nmod",
+    "head": 49
+  },
+  {
+    "id": 49,
+    "start": 74,
+    "end": 76,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "附近",
+    "dep": "obj",
+    "head": 44
+  },
+  {
+    "id": 50,
+    "start": 76,
+    "end": 78,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "举行",
+    "dep": "advcl",
+    "head": 57
+  },
+  {
+    "id": 51,
+    "start": 78,
+    "end": 79,
+    "tag": "RB",
+    "pos": "ADV",
+    "morph": "",
+    "lemma": "所",
+    "dep": "mark",
+    "head": 52
+  },
+  {
+    "id": 52,
+    "start": 79,
+    "end": 80,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "谓",
+    "dep": "amod",
+    "head": 54
+  },
+  {
+    "id": 53,
+    "start": 80,
+    "end": 82,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "军事",
+    "dep": "nmod",
+    "head": 54
+  },
+  {
+    "id": 54,
+    "start": 82,
+    "end": 84,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "演习",
+    "dep": "obj",
+    "head": 50
+  },
+  {
+    "id": 55,
+    "start": 84,
+    "end": 85,
+    "tag": ",",
+    "pos": "PUNCT",
+    "morph": "",
+    "lemma": "，",
+    "dep": "punct",
+    "head": 50
+  },
+  {
+    "id": 56,
+    "start": 85,
+    "end": 86,
+    "tag": "RB",
+    "pos": "ADV",
+    "morph": "",
+    "lemma": "并",
+    "dep": "mark",
+    "head": 57
+  },
+  {
+    "id": 57,
+    "start": 86,
+    "end": 87,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "诡",
+    "dep": "advcl",
+    "head": 82
+  },
+  {
+    "id": 58,
+    "start": 87,
+    "end": 88,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "称",
+    "dep": "xcomp",
+    "head": 57
+  },
+  {
+    "id": 59,
+    "start": 88,
+    "end": 89,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "有",
+    "dep": "xcomp",
+    "head": 58
+  },
+  {
+    "id": 60,
+    "start": 89,
+    "end": 90,
+    "tag": "CD",
+    "pos": "NUM",
+    "morph": "NumType=Card",
+    "lemma": "一",
+    "dep": "nummod",
+    "head": 61
+  },
+  {
+    "id": 61,
+    "start": 90,
+    "end": 91,
+    "tag": "NNB",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "名",
+    "dep": "clf",
+    "head": 64
+  },
+  {
+    "id": 62,
+    "start": 91,
+    "end": 92,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "日",
+    "dep": "compound",
+    "head": 63
+  },
+  {
+    "id": 63,
+    "start": 92,
+    "end": 93,
+    "tag": "SFN",
+    "pos": "PART",
+    "morph": "",
+    "lemma": "军",
+    "dep": "nmod",
+    "head": 64
+  },
+  {
+    "id": 64,
+    "start": 93,
+    "end": 95,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "士兵",
+    "dep": "nsubj",
+    "head": 65
+  },
+  {
+    "id": 65,
+    "start": 95,
+    "end": 97,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "失踪",
+    "dep": "ccomp",
+    "head": 59
+  },
+  {
+    "id": 66,
+    "start": 97,
+    "end": 98,
+    "tag": ",",
+    "pos": "PUNCT",
+    "morph": "",
+    "lemma": "，",
+    "dep": "punct",
+    "head": 58
+  },
+  {
+    "id": 67,
+    "start": 98,
+    "end": 100,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "要求",
+    "dep": "advcl",
+    "head": 82
+  },
+  {
+    "id": 68,
+    "start": 100,
+    "end": 102,
+    "tag": "VV",
+    "pos": "VERB",
+    "morph": "",
+    "lemma": "进入",
+    "dep": "xcomp",
+    "head": 67
+  },
+  {
+    "id": 69,
+    "start": 102,
+    "end": 104,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "北平",
+    "dep": "nmod",
+    "head": 70
+  },
+  {
+    "id": 70,
+    "start": 104,
+    "end": 106,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "西南",
+    "dep": "nmod",
+    "head": 75
+  },
+  {
+    "id": 71,
+    "start": 106,
+    "end": 107,
+    "tag": "DEC",
+    "pos": "PART",
+    "morph": "Case=Gen",
+    "lemma": "的",
+    "dep": "case",
+    "head": 70
+  },
+  {
+    "id": 72,
+    "start": 107,
+    "end": 109,
+    "tag": "NNP",
+    "pos": "PROPN",
+    "morph": "",
+    "lemma": "宛平",
+    "dep": "nmod",
+    "head": 75
+  },
+  {
+    "id": 73,
+    "start": 109,
+    "end": 111,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "县城",
+    "dep": "nmod",
+    "head": 75
+  },
+  {
+    "id": 74,
+    "start": 111,
+    "end": 113,
+    "tag": "NN",
+    "pos": "NOUN",
+    "morph": "",
+    "lemma": "搜查",
+    "dep": "nmod",
+    "head": 75
+  },
+  {
+    "id": 75,
+    "start": 114,
+    "end": 118,
+    "tag": "CD",
+    "pos": "NUM",
+    "morph": "NumType=Card",
+    "lemma": "[13
+  ]", "dep": "obj", "head": 68
+},
+{
+  "id": 76,
+  "start": 119,
+  "end": 120,
+  "tag": ",",
+  "pos": "PUNCT",
+  "morph": "",
+  "lemma": "，",
+  "dep": "punct",
+  "head": 67
+},
+{
+  "id": 77,
+  "start": 120,
+  "end": 121,
+  "tag": "BB",
+  "pos": "AUX",
+  "morph": "Voice=Pass",
+  "lemma": "被",
+  "dep": "aux:pass",
+  "head": 82
+},
+{
+  "id": 78,
+  "start": 121,
+  "end": 123,
+  "tag": "NNP",
+  "pos": "PROPN",
+  "morph": "",
+  "lemma": "中国",
+  "dep": "nmod",
+  "head": 81
+},
+{
+  "id": 79,
+  "start": 123,
+  "end": 124,
+  "tag": "VV",
+  "pos": "VERB",
+  "morph": "",
+  "lemma": "驻",
+  "dep": "compound",
+  "head": 80
+},
+{
+  "id": 80,
+  "start": 124,
+  "end": 125,
+  "tag": "SFN",
+  "pos": "PART",
+  "morph": "",
+  "lemma": "军",
+  "dep": "nmod",
+  "head": 81
+},
+{
+  "id": 81,
+  "start": 125,
+  "end": 127,
+  "tag": "NN",
+  "pos": "NOUN",
+  "morph": "",
+  "lemma": "严词",
+  "dep": "nsubj",
+  "head": 82
+},
+{
+  "id": 82,
+  "start": 127,
+  "end": 129,
+  "tag": "VV",
+  "pos": "VERB",
+  "morph": "",
+  "lemma": "拒绝",
+  "dep": "root",
+  "head": 82
+},
+{
+  "id": 83,
+  "start": 129,
+  "end": 130,
+  "tag": ",",
+  "pos": "PUNCT",
+  "morph": "",
+  "lemma": "，",
+  "dep": "punct",
+  "head": 93
+},
+{
+  "id": 84,
+  "start": 130,
+  "end": 131,
+  "tag": "NNP",
+  "pos": "PROPN",
+  "morph": "",
+  "lemma": "日",
+  "dep": "compound",
+  "head": 85
+},
+{
+  "id": 85,
+  "start": 131,
+  "end": 132,
+  "tag": "SFN",
+  "pos": "PART",
+  "morph": "",
+  "lemma": "军",
+  "dep": "nsubj",
+  "head": 93
+},
+{
+  "id": 86,
+  "start": 132,
+  "end": 134,
+  "tag": "RB",
+  "pos": "ADV",
+  "morph": "",
+  "lemma": "随即",
+  "dep": "advmod",
+  "head": 93
+},
+{
+  "id": 87,
+  "start": 134,
+  "end": 135,
+  "tag": "IN",
+  "pos": "ADP",
+  "morph": "",
+  "lemma": "向",
+  "dep": "case",
+  "head": 89
+},
+{
+  "id": 88,
+  "start": 135,
+  "end": 137,
+  "tag": "NNP",
+  "pos": "PROPN",
+  "morph": "",
+  "lemma": "宛平",
+  "dep": "compound",
+  "head": 89
+},
+{
+  "id": 89,
+  "start": 137,
+  "end": 138,
+  "tag": "SFN",
+  "pos": "PART",
+  "morph": "",
+  "lemma": "城",
+  "dep": "obl",
+  "head": 93
+},
+{
+  "id": 90,
+  "start": 138,
+  "end": 139,
+  "tag": "CC",
+  "pos": "CCONJ",
+  "morph": "",
+  "lemma": "和",
+  "dep": "cc",
+  "head": 92
+},
+{
+  "id": 91,
+  "start": 139,
+  "end": 141,
+  "tag": "NNP",
+  "pos": "PROPN",
+  "morph": "",
+  "lemma": "卢沟",
+  "dep": "compound",
+  "head": 92
+},
+{
+  "id": 92,
+  "start": 141,
+  "end": 142,
+  "tag": "SFN",
+  "pos": "PART",
+  "morph": "",
+  "lemma": "桥",
+  "dep": "conj",
+  "head": 89
+},
+{
+  "id": 93,
+  "start": 142,
+  "end": 144,
+  "tag": "VV",
+  "pos": "VERB",
+  "morph": "",
+  "lemma": "发动",
+  "dep": "parataxis",
+  "head": 82
+},
+{
+  "id": 94,
+  "start": 144,
+  "end": 146,
+  "tag": "NN",
+  "pos": "NOUN",
+  "morph": "",
+  "lemma": "进攻",
+  "dep": "obj",
+  "head": 93
+},
+{
+  "id": 95,
+  "start": 146,
+  "end": 147,
+  "tag": ".",
+  "pos": "PUNCT",
+  "morph": "",
+  "lemma": "。",
+  "dep": "punct",
+  "head": 82
+},
+{
+  "id": 96,
+  "start": 147,
+  "end": 149,
+  "tag": "NNP",
+  "pos": "PROPN",
+  "morph": "",
+  "lemma": "中国",
+  "dep": "nmod",
+  "head": 98
+},
+{
+  "id": 97,
+  "start": 149,
+  "end": 150,
+  "tag": "VV",
+  "pos": "VERB",
+  "morph": "",
+  "lemma": "驻",
+  "dep": "compound",
+  "head": 98
+},
+{
+  "id": 98,
+  "start": 150,
+  "end": 151,
+  "tag": "SFN",
+  "pos": "PART",
+  "morph": "",
+  "lemma": "军",
+  "dep": "nmod",
+  "head": 102
+},
+{
+  "id": 99,
+  "start": 151,
+  "end": 154,
+  "tag": "CD",
+  "pos": "NUM",
+  "morph": "NumType=Ord",
+  "lemma": "第29",
+  "dep": "nummod",
+  "head": 100
+},
+{
+  "id": 100,
+  "start": 154,
+  "end": 155,
+  "tag": "NN",
+  "pos": "NOUN",
+  "morph": "",
+  "lemma": "军",
+  "dep": "nmod",
+  "head": 102
+},
+{
+  "id": 101,
+  "start": 155,
+  "end": 157,
+  "tag": "CD",
+  "pos": "NUM",
+  "morph": "NumType=Card",
+  "lemma": "37",
+  "dep": "nummod",
+  "head": 102
+},
+{
+  "id": 102,
+  "start": 157,
+  "end": 158,
+  "tag": "NN",
+  "pos": "NOUN",
+  "morph": "",
+  "lemma": "师",
+  "dep": "nsubj",
+  "head": 105
+},
+{
+  "id": 103,
+  "start": 158,
+  "end": 161,
+  "tag": "CD",
+  "pos": "NUM",
+  "morph": "NumType=Card",
+  "lemma": "219",
+  "dep": "appos",
+  "head": 102
+},
+{
+  "id": 104,
+  "start": 161,
+  "end": 163,
+  "tag": "NN",
+  "pos": "NOUN",
+  "morph": "",
+  "lemma": "团奋",
+  "dep": "appos",
+  "head": 102
+},
+{
+  "id": 105,
+  "start": 163,
+  "end": 164,
+  "tag": "VV",
+  "pos": "VERB",
+  "morph": "",
+  "lemma": "起",
+  "dep": "advcl",
+  "head": 108
+},
+{
+  "id": 106,
+  "start": 164,
+  "end": 166,
+  "tag": "VV",
+  "pos": "VERB",
+  "morph": "",
+  "lemma": "还击",
+  "dep": "xcomp",
+  "head": 105
+},
+{
+  "id": 107,
+  "start": 166,
+  "end": 167,
+  "tag": ",",
+  "pos": "PUNCT",
+  "morph": "",
+  "lemma": "，",
+  "dep": "punct",
+  "head": 105
+},
+{
+  "id": 108,
+  "start": 167,
+  "end": 169,
+  "tag": "VV",
+  "pos": "VERB",
+  "morph": "",
+  "lemma": "进行",
+  "dep": "root",
+  "head": 108
+},
+{
+  "id": 109,
+  "start": 169,
+  "end": 170,
+  "tag": "AS",
+  "pos": "AUX",
+  "morph": "Aspect=Perf",
+  "lemma": "了",
+  "dep": "aux",
+  "head": 108
+},
+{
+  "id": 110,
+  "start": 170,
+  "end": 172,
+  "tag": "JJ",
+  "pos": "ADJ",
+  "morph": "",
+  "lemma": "顽强",
+  "dep": "amod",
+  "head": 113
+},
+{
+  "id": 111,
+  "start": 172,
+  "end": 173,
+  "tag": "DEC",
+  "pos": "PART",
+  "morph": "",
+  "lemma": "的",
+  "dep": "mark:rel",
+  "head": 110
+},
+{
+  "id": 112,
+  "start": 173,
+  "end": 175,
+  "tag": "NN",
+  "pos": "NOUN",
+  "morph": "",
+  "lemma": "抵抗",
+  "dep": "nmod",
+  "head": 113
+},
+{
+  "id": 113,
+  "start": 176,
+  "end": 179,
+  "tag": "NN",
+  "pos": "NOUN",
+  "morph": "",
+  "lemma": "[2
+]", "dep": "obj", "head": 108
+},
+{
+"id": 114,
+"start": 180,
+"end": 181,
+"tag": ".",
+"pos": "PUNCT",
+"morph": "",
+"lemma": "。",
+"dep": "punct",
+"head": 108
+},
+{
+"id": 115,
+"start": 181,
+"end": 182,
+"tag": "``",
+"pos": "PUNCT",
+"morph": "",
+"lemma": "“",
+"dep": "punct",
+"head": 117
+},
+{
+"id": 116,
+"start": 182,
+"end": 184,
+"tag": "CD",
+"pos": "NUM",
+"morph": "NumType=Card",
+"lemma": "七七",
+"dep": "nmod",
+"head": 117
+},
+{
+"id": 117,
+"start": 184,
+"end": 186,
+"tag": "NN",
+"pos": "NOUN",
+"morph": "",
+"lemma": "事变",
+"dep": "nsubj",
+"head": 119
+},
+{
+"id": 118,
+"start": 186,
+"end": 187,
+"tag": """",
+"pos": "PUNCT",
+"morph": "",
+"lemma": "”",
+"dep": "punct",
+"head": 117
+},
+{
+"id": 119,
+"start": 187,
+"end": 189,
+"tag": "VV",
+"pos": "VERB",
+"morph": "",
+"lemma": "揭开",
+"dep": "root",
+"head": 119
+},
+{
+"id": 120,
+"start": 189,
+"end": 190,
+"tag": "AS",
+"pos": "AUX",
+"morph": "Aspect=Perf",
+"lemma": "了",
+"dep": "aux",
+"head": 119
+},
+{
+"id": 121,
+"start": 190,
+"end": 192,
+"tag": "NN",
+"pos": "NOUN",
+"morph": "",
+"lemma": "全国",
+"dep": "nsubj",
+"head": 122
+},
+{
+"id": 122,
+"start": 192,
+"end": 193,
+"tag": "VV",
+"pos": "VERB",
+"morph": "",
+"lemma": "抗",
+"dep": "amod",
+"head": 124
+},
+{
+"id": 123,
+"start": 193,
+"end": 194,
+"tag": "NNP",
+"pos": "PROPN",
+"morph": "",
+"lemma": "日",
+"dep": "obj",
+"head": 122
+},
+{
+"id": 124,
+"start": 194,
+"end": 196,
+"tag": "NN",
+"pos": "NOUN",
+"morph": "",
+"lemma": "战争",
+"dep": "nmod",
+"head": 126
+},
+{
+"id": 125,
+"start": 196,
+"end": 197,
+"tag": "DEC",
+"pos": "PART",
+"morph": "",
+"lemma": "的",
+"dep": "case",
+"head": 124
+},
+{
+"id": 126,
+"start": 197,
+"end": 199,
+"tag": "NN",
+"pos": "NOUN",
+"morph": "",
+"lemma": "序幕",
+"dep": "obj",
+"head": 119
+},
+{
+"id": 127,
+"start": 199,
+"end": 200,
+"tag": ".",
+"pos": "PUNCT",
+"morph": "",
+"lemma": ".",
+"dep": "punct",
+"head": 119
+}
+]
+}
