@@ -6,7 +6,10 @@ authors = ["wangf <ten2net@163.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<3.13"
+spacy-stanza = "^1.0.3"
+pandas = "^2.1.1"
+openpyxl = "^3.1.2"
 
 
 [build-system]
