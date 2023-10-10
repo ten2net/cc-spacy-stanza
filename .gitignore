@@ -1,0 +1,16 @@
+dist
+*.csv
+*.pyc
+*.pyo
+*.log
+*.bak
+*.dat
+*.db
+*.pkl
+*.rst
+*.rst.bak
+*.xlsx
+*.xls
+*.docx  
+*.doc   
+*.whl
